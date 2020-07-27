@@ -1,0 +1,11 @@
+main {
+  padding: $sections_padding;
+
+  .rooms-list {
+    font-size: 20px;
+    td {
+      border: 1px solid black;
+      padding: 5px 10px;
+    }
+  }
+}

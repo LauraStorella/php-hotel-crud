@@ -1,3 +1,5 @@
-body {
-  background-color: red;
-}
+// Includo partials in entry file
+@import 'partials/_variables';
+@import 'partials/_common';
+@import 'partials/_header';
+@import 'partials/_main';
