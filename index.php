@@ -29,6 +29,7 @@ echo 'test';
               <td><?php echo $room['id']?>; </td>
               <td><?php echo $room['room_number']?>;</td>
               <td><?php echo $room['floor']?>;</td>
+              <td><a href="<?php echo $base_path . '/show/show.php?id=' . $room['id']; ?>">View</a></td>
             </tr>
             <!-- Singola stanza -->
           <?php } ?>

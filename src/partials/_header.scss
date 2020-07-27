@@ -2,4 +2,11 @@ header {
   background-color: $header_bg_color;
   color: white;
   padding: $sections_padding;
+
+
+  nav {
+    a {
+      color: white;
+    }
+  }
 }

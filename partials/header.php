@@ -15,3 +15,8 @@
     <header>
       <h1>Boolean Hotel</h1>
     </header>
+
+    <nav>
+      <a href="<?php echo $base_path; ?>">Torna alla lista delle stanze</a>
+    </nav>
+  <body>
