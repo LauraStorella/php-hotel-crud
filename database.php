@@ -1,7 +1,7 @@
 <?php
   
   // File con variabili
-  include __DIR__ . 'env.php';
+  include __DIR__ . '/env.php';
 
   // Connect
   $conn = new mysqli($servername, $username, $password, $dbname, $port);

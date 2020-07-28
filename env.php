@@ -2,7 +2,7 @@
 // Credenziali connessione DB
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "db_hotel_crud";
 $port = 8889;
 
