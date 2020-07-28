@@ -4,7 +4,7 @@
   include __DIR__ . 'env.php';
 
   // Connect
-  $conn = new mysqli($servername, $username, $password, $dbname, 8889);
+  $conn = new mysqli($servername, $username, $password, $dbname, $port);
 
   // Check connection
   if ($conn && $conn->connect_error) {
